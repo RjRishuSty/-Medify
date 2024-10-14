@@ -1,0 +1,38 @@
+.swiperBox{
+  /* border:5px solid green; */
+  /* position: relative; */
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+  /* top: -250px; */
+}
+.swiperContainer {
+  width: 100%;
+  height: auto;
+  /* padding: 30px 0px; */
+}
+.swiperItem {
+    /* border: 1px solid red; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.card {
+  width: 398.3px;
+  height: 199.15px;
+  border-radius: 20px !important;
+}
+.Img {
+  width: 398.3px;
+  height: 199.15px;
+  border-radius: 20px;
+}
+@media (max-width:1227px) {
+  .swiperBox{
+    padding-bottom: 30px;
+  }
+}
+ 

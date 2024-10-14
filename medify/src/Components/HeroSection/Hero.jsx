@@ -10,18 +10,28 @@ import {
 } from "@mui/material";
 import React from "react";
 import Styles from "./Hero.module.css";
+
+
+
 const Hero = () => {
   return (
     <Box className={Styles.hero_section}>
       <Container className={Styles.heroContainer}>
         <Grid container className={Styles.heroGrid}>
-          <Grid item md={6} sm={12} xs={12} mb={2} className={Styles.heroGridItem}>
+          <Grid
+            item
+            md={6}
+            sm={12}
+            xs={12}
+            mb={2}
+            className={Styles.heroGridItem}
+          >
             <Card className={Styles.card}>
               <CardContent>
                 <Typography component="p" className={Styles.cardTitle}>
                   Skip the travel! Find Online
                   <Typography className={Styles.cardTitleHighLight}>
-                    Medical{" "} 
+                    Medical{" "}
                     <span className={Styles.titleHighLight}>Centers</span>
                   </Typography>
                 </Typography>

@@ -7,12 +7,35 @@
 body {
   font-family: "Poppins", sans-serif !important;
 }
-a{
+a {
   text-decoration: none;
   color: black;
 }
-.App{
+.App {
   /* border: 1px solid red; */
   width: 100% !important;
   height: auto;
+}
+
+/* Swiper Pagenation */
+
+.swiper-pagination {
+  /* border: 2px solid red; */
+  position: relative !important;
+  bottom: 0px;
+  padding: 10px;
+}
+
+/* noMargin */
+.noMargin{
+  /* border: 5px solid black; */
+  width: 100%;
+  height: auto;
+  margin-top: -250px;
+}
+@media (max-width:1227px) {
+  .noMargin{
+    /* border: 10px solid red; */
+    margin-top: 0px;
+  }
 }
