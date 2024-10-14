@@ -5,6 +5,7 @@ import Footer from "../Components/Footer/Footer";
 import FilterMenu from "../Components/FilterFormSection/FilterMenu";
 import Swiper from "../Components/SwiperComponent/SwiperComponent";
 import Specialisation from "../Components/Specialisation/Specialisation";
+import BlogsNews from "../Components/BlogsNews/BlogsNews";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <div className="noMargin">
         <Swiper />
         <Specialisation />
+        <BlogsNews/>
         <Footer />
       </div>
     </div>
