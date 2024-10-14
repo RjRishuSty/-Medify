@@ -1,0 +1,57 @@
+.searchGrid {
+  /* border: 2px solid red; */
+  width: 100% !important;
+  height: auto !important;
+  display: flex;
+  padding: 20px 5px 10px 5px;
+  justify-content: space-around !important;
+  align-items: center;
+}
+.searchGridItem {
+  /* border: 2px solid yellow; */
+  width: 100% !important;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 19.2px;
+  height: 19.2px;
+  color: #9ca3af !important;
+}
+.select {
+  width: 100% !important;
+  height: 50px !important;
+  border: 1px solid #f0f0f0 !important;
+  background-color: #fafbfe !important;
+  border-radius: 8px !important;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #abb6c7 !important;
+  padding: 0px 15px;
+  margin: 10px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  color: #ffffff !important;
+  background-color: #2aa8ff !important;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-transform: capitalize !important;
+}
+.button .icon{
+    color: white !important;
+
+}

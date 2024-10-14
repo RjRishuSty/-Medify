@@ -13,9 +13,9 @@ import Styles from "./Hero.module.css";
 const Hero = () => {
   return (
     <Box className={Styles.hero_section}>
-      <Container sx={{ border: "2px solid black" }}>
+      <Container>
         <Grid container className={Styles.heroGrid}>
-          <Grid item md={6} sm={6} xs={12} className={Styles.heroGridItem}>
+          <Grid item md={6} sm={12} xs={12} className={Styles.heroGridItem}>
             <Card className={Styles.card}>
               <CardContent>
                 <Typography component="p" className={Styles.cardTitle}>
@@ -35,7 +35,7 @@ const Hero = () => {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item md={6} sm={6} xs={12} className={Styles.heroGridItem}>
+          <Grid item md={6} sm={12} xs={12} className={Styles.heroGridItem}>
             <Card className={Styles.card}>
               <Box className={Styles.cardImg}>
                 <img
@@ -47,10 +47,6 @@ const Hero = () => {
             </Card>
           </Grid>
         </Grid>
-        {/* Form */}
-        <Box className={Styles.formBox}>
-
-        </Box>
       </Container>
     </Box>
   );

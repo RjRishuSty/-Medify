@@ -1,0 +1,123 @@
+.footer {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+  padding: 50px 5px 30px 5px;
+  background: #1b3c74;
+}
+.FooterGrid {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.FooterGridItem {
+  width: auto;
+  height: auto;
+}
+.logoDiv {
+  width: 100%;
+  height: auto;
+  padding: 30px 10px;
+}
+
+.logoBox {
+  /* border: 2px solid black; */
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+.logoIcon {
+  width: auto !important;
+  height: 43px !important;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #2aa8ff;
+  color: white;
+  margin-right: 5px;
+}
+
+.logoText {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #2aa8ff;
+  letter-spacing: 1px !important;
+}
+
+.socalIcon {
+  /* border: 2px solid red; */
+  padding: 10px;
+  width: 100%;
+  height: auto;
+}
+.ul {
+  /* border: 2px solid red; */
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.li {
+  width: 35.2px;
+  height: 35.2px;
+  padding: 9.59px 0px 9.61px 0px;
+  border-radius: 17.6px;
+  border: 1px solid #ffffff;
+  background-color: #fffffffc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 16px !important;
+  font-weight: 400;
+  line-height: 16px;
+  color: #2aa7ff;
+}
+
+.quickLink {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+}
+.quickLinkUl {
+  list-style: none;
+}
+.linkIcon {
+  font-size: 25px !important;
+  font-weight: 900 !important;
+  text-align: left;
+  color: white !important;
+}
+.qucikLinkItem {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: start;
+  line-height: 50px;
+  text-transform: capitalize;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: "Poppins", sans-serif !important;
+}
+.CopyRightContainer{
+    padding:25px 10px 20px 10px;
+    position: relative;
+    top: 20px;
+    border-top:1px solid #FFFFFF1A;
+}
+.CopyRight {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  text-align: start !important;
+  font-family: "Poppins", sans-serif !important;
+  color: #FFFFFF !important;
+}
