@@ -1,0 +1,38 @@
+.ourFamiliesBox {
+  /* border: 2px solid black; */
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+}
+
+.title {
+  font-size: 17px !important;
+  font-weight: 600 !important;
+  text-align: start !important;
+  color: #2aa7ff !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.subTitle {
+  font-size: 48px !important;
+  font-weight: 600 !important;
+  text-align: start !important;
+  color: #1b3c74 !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.description {
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  line-height: 40.8px !important;
+  text-align: start !important;
+  color: #77829d !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.img {
+  width: 100%;
+  height: auto;
+}

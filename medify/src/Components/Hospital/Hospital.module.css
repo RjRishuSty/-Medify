@@ -1,0 +1,27 @@
+.hospitalBox {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+}
+
+.title {
+  font-family: Poppins;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  text-align: start;
+  color: black !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.discription {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  text-align: start !important;
+  color: #787887 !important;
+  font-family: "Poppins", sans-serif !important;
+}

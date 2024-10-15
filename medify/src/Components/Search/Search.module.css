@@ -6,6 +6,7 @@
   padding: 20px 5px 10px 5px;
   justify-content: space-around !important;
   align-items: center;
+  background-color: #fff;
 }
 .searchGridItem {
   /* border: 2px solid yellow; */
@@ -55,3 +56,5 @@
     color: white !important;
 
 }
+
+

@@ -1,0 +1,153 @@
+.downloadBox {
+  /* border: 5px solid red; */
+  width: 100%;
+  height: auto;
+  padding: 50px 0px 0px 0px;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+}
+
+.arrowImg {
+  width: auto;
+  height: 150px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+.title {
+  font-size: 48px !important;
+  font-weight: 600 !important;
+  line-height: 67px !important;
+  text-align: start;
+  font-family: "Poppins", sans-serif !important;
+  color: #1b3c74 !important;
+}
+.title span {
+  color: #2aa7ff !important;
+}
+.secTitle {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  text-align: start !important;
+  color: #414146 !important;
+  margin-top: 20px !important;
+}
+
+.inputBox {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: start !important;
+}
+.input {
+  width: auto;
+  height: 40px !important;
+  margin-top: 5px !important;
+  border: 1px solid #f0f0f0 !important;
+}
+
+.button {
+  width: auto;
+  height: 55px !important;
+  margin-top: 5px !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  text-align: center !important;
+  font-family: "Poppins", sans-serif !important;
+  color: white !important;
+  text-transform: capitalize !important;
+  background-color: #2aa8ff !important;
+}
+.buttonBox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.buttonImg {
+  width: 224px;
+  height: 69px;
+  margin-right: 10px;
+}
+@media (max-width: 1099px) {
+  .phoneImg {
+        width: 250px;
+        height: auto;
+      }
+      .buttonImg {
+        width: 124px;
+        height: 50px;
+        margin-right: 10px;
+      }
+}
+@media (max-width: 900px) {
+  .phoneImgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phoneImg {
+    width: auto;
+    height: 503px;
+  }
+}
+
+@media (max-width:552px) {
+    .phoneImg {
+        width: 250px;
+        height: auto;
+      }
+      .buttonImg {
+        width: auto;
+        height: 50px;
+        margin-right: 10px;
+      }
+      .arrowImg {
+        /* border: 2px solid red; */
+        width: auto;
+        height: 100px;
+        margin-top: 20px;
+        margin-right: 5px;
+      }
+      .title {
+        font-size: 38px !important;
+        line-height: 40px !important;
+      }
+      
+      .inputBox {
+        /* border: 2px solid red; */
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .input {
+        width: auto;
+        height: 40px !important;
+        margin-top: 5px !important;
+        border: 1px solid #f0f0f0 !important;
+      }
+      
+      .button {
+        width: auto;
+        margin-top: 25px !important;
+      }
+      .buttonBox {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .buttonImg {
+        width: 224px;
+        height: 69px;
+        margin-bottom: 10px ;
+      }
+}

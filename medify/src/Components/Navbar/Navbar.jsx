@@ -14,7 +14,7 @@ import NavbarNotes from '../NavbarNotes/NavbarNotes'
 import Styles from "./Navbar.module.css";
 
 const pages = [
-  { name: "Find Doctors", path: "/doctors" },
+  { name: "Find Doctors", path: "/find-doctor" },
   { name: "Hospitals", path: "/hospitals" },
   { name: "Medicines", path: "/medicines" },
   { name: "Surgeries", path: "/surgeries" },

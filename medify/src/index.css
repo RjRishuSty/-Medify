@@ -27,15 +27,28 @@ a {
 }
 
 /* noMargin */
-.noMargin{
+.noMargin {
   /* border: 5px solid black; */
   width: 100%;
   height: auto;
   margin-top: -250px;
 }
-@media (max-width:1227px) {
-  .noMargin{
+@media (max-width: 1227px) {
+  .noMargin {
     /* border: 10px solid red; */
     margin-top: 0px;
   }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     searchSection >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.searchSectionNoMargin{
+  /* border:2px solid black; */
+  margin-top: 50px;
+}
+.searchSection {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+  border-radius: 0px 0px 16px 16px;
+  background: linear-gradient(91.75deg, #2aa7ff 1.4%, #0c8ce6 100.57%);
 }
