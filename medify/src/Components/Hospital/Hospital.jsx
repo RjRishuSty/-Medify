@@ -5,37 +5,39 @@ import CheckIcon from "@mui/icons-material/Check";
 import { Box, Container, Typography, Grid } from "@mui/material";
 import Free from "../Free/Free";
 
-const Hospital = () => {
+const Hospital = ({hospitalData}) => {
   return (
     <Box className={Styles.hospitalBox}>
       <Container maxWidth="lg">
         <Typography className={Styles.title}>
-          15 medical centers available in Alaska
+          {`${hospitalData.length}`} medical centers available in Alaska
         </Typography>
         <Typography className={Styles.discription}>
           <CheckIcon color="success" /> Book appointments with minimum wait-time
           & verified doctor details
         </Typography>
-        <Grid container sx={{mt:'35px'}}>
+        <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} sx={{mt:'10px'}}>
           <Grid
             item
             md={9}
-            sm={6}
+            sm={12}
             xs={12}
             display="flex"
             justifyContent="center"
             alignItems="center"
+            flexDirection='column'
           >
-            <HospitalCard />
+            <HospitalCard hospitalData={hospitalData}/>
           </Grid>
           <Grid
             item
             md={3}
-            sm={6}
+            sm={12}
             xs={12}
             display="flex"
-            justifyContent="center"
+            justifyContent="start"
             alignItems="center"
+            flexDirection='column'
           >
             <Free />
           </Grid>

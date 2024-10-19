@@ -4,7 +4,7 @@ import Styles from "./MedicalSpecialist.module.css";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
-import { Box, Container, Card, Typography, CardContent } from "@mui/material";
+import { Card, Typography, CardContent } from "@mui/material";
 
 const MedicalSpecialist = () => {
   return (

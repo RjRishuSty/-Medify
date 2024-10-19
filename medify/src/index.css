@@ -52,3 +52,25 @@ a {
   border-radius: 0px 0px 16px 16px;
   background: linear-gradient(91.75deg, #2aa7ff 1.4%, #0c8ce6 100.57%);
 }
+.loading{
+  /* border: 2px solid red; */
+  text-align: center;
+  padding: 50px 15px;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color:  !important;
+}
+
+.ModelFormBox {
+  /* border: 5px solid red; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #FFFFFFC4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}

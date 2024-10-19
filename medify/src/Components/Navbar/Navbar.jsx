@@ -9,7 +9,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import GppGoodIcon from "@mui/icons-material/GppGood";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import NavbarNotes from '../NavbarNotes/NavbarNotes'
 import Styles from "./Navbar.module.css";
 
@@ -68,7 +68,10 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
+            <Link to='/my-booking'>
             <Button className={Styles.button}>My Bookings</Button>
+            </Link>
+            
           </Box>
 
           {/* Mobile Menu */}

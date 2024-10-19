@@ -1,0 +1,90 @@
+.booking {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+.border {
+  width: 44.08px !important;
+  height: 5px !important;
+  border-radius: 3.5px;
+  background-color: #00a500;
+  margin-bottom: 10px;
+}
+.Swiper {
+  border-bottom: 1px solid rgb(241, 239, 239) !important;
+}
+.Slider {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  /* border-bottom: 1px solid gray; */
+}
+
+.card {
+  width: 205px;
+  height: 58px;
+  padding: 10px 10px;
+}
+.title {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  color: black !important;
+}
+.description {
+  color: #01a400;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  text-align: center;
+}
+
+.slots {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.cardSlot {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid rgb(241, 239, 239) !important;
+}
+.setStatus {
+  /* border: 1px solid rgb(0, 255, 21); */
+  font-size: 14px;
+  font-weight: 400;
+  text-align: start;
+  color: #414146;
+}
+.setTime {
+  /* border: 2px solid green; */
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+}
+.bookingTime {
+  width: 90px;
+  height: auto;
+  border: 1px solid #2aa7ff;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #2aa7ff;
+  padding: 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.selected {
+  background-color: #2aa7ff; 
+  color: white;
+}

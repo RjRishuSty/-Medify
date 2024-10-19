@@ -1,0 +1,55 @@
+.BookingDataBox {
+  /* border: 5px solid rgb(26, 25, 25); */
+  width: 100%;
+  height: auto;
+  padding: 50px 10px;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+}
+.contianer {
+  /* border: 2px solid red !important; */
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 15px !important;
+  padding: 20px 5px !important;
+  background-color:  white!important;
+  border-radius: 10px !important;
+}
+.card {
+  width: 124px !important;
+  height: 124px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8ccfff !important;
+  border-radius: 110% !important;
+}
+.img {
+  width: 80px;
+  height: 80px;
+}
+.hospitalName {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  text-align: start !important;
+  color: #14bef0 !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.hospitalPlace {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  text-align: start !important;
+  color: #414146 !important;
+  margin-top: 1px !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.description {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  text-align: start !important;
+  color: #414146 !important;
+  font-family: "Poppins", sans-serif !important;
+}
